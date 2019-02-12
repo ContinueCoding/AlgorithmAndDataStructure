@@ -2,7 +2,8 @@
  * 算法与数据结构
  *
  *  P.S.
- *   https://visualgo.net/en 各个算法的动画效果！
+ *   https://visualgo.net/zh 算法和数据结构动态可视化
+ *   https://www.zhihu.com/question/21318658 知乎：如何学习数据结构？
  */
 public class Main {
 
