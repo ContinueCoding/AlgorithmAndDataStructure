@@ -58,7 +58,7 @@ import java.util.Stack;
  *
  *              (2) 平衡二叉树追求绝对平衡，条件比较苛刻，实现起来比较麻烦，每次插入新节点之后需要旋转的次数不能预知。
  *
- *  【B树、B+树、B*树】：
+ *  【B-树、B+树、B*树】：
  *
  *
  *  TODO: P.S. https://www.cnblogs.com/swiftma/p/5968867.html
