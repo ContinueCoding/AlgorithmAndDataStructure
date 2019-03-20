@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +18,7 @@
       <file leaf-file-name="CommonAlgorithmDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/other/CommonAlgorithmDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="441">
               <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="e#1834#1858#0" />
@@ -31,17 +31,45 @@
       <file leaf-file-name="LinearListByArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="493">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearListByLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinearListByLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1487">
-              <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+            <state relative-caret-position="518">
+              <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackAndQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/stack_queue/StackAndQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="372" lean-forward="true" selection-start-line="372" selection-end-line="372" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
+                <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
+                <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
+                <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
+                <element signature="method#search#0;class#BinaryTree#0" />
+                <element signature="method#insert#0;class#BinaryTree#0" />
+                <element signature="method#delete#0;class#BinaryTree#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,15 +101,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByArray.java" />
-        <option value="$PROJECT_DIR$/src/data_structure/stack_queue/StackAndQueue.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/data_structure/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/algorithm/AlgorithmDemo.java" />
         <option value="$PROJECT_DIR$/src/algorithm/search/SearchDemo.java" />
         <option value="$PROJECT_DIR$/src/algorithm/sort/SortDemo.java" />
         <option value="$PROJECT_DIR$/src/algorithm/other/CommonAlgorithmDemo.java" />
-        <option value="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/stack_queue/StackAndQueue.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -285,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553068659154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="链表 - 获取单链表中点。">
+      <created>1553071531702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553071531702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Stack &amp; Queue - basic。">
+      <created>1553072194662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553072194662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -304,7 +346,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16809729" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -327,7 +369,9 @@
     <MESSAGE value="递归&amp;非递归实现：fibonacci、最大公约数算法。" />
     <MESSAGE value="链表 - 翻转单链表（递归&amp;非递归）" />
     <MESSAGE value="链表 - 判断单链表是否有环。" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表 - 判断单链表是否有环。" />
+    <MESSAGE value="链表 - 获取单链表中点。" />
+    <MESSAGE value="Stack &amp; Queue - basic。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack &amp; Queue - basic。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/algorithm/other/CommonAlgorithmDemo.java">
@@ -384,6 +428,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
+            <element signature="method#search#0;class#BinaryTree#0" />
+            <element signature="method#insert#0;class#BinaryTree#0" />
+            <element signature="method#delete#0;class#BinaryTree#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -495,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/stack_queue/StackAndQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/ArrayUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -513,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="159" column="34" lean-forward="true" selection-start-line="159" selection-start-column="34" selection-end-line="159" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -565,9 +598,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/other/CommonAlgorithmDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="441">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="e#1834#1858#0" />
@@ -576,17 +623,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByArray.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="453">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1487">
-          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        <state relative-caret-position="-610">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="169" column="6" lean-forward="true" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/stack_queue/StackAndQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="372" lean-forward="true" selection-start-line="372" selection-end-line="372" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
+            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
+            <element signature="method#search#0;class#BinaryTree#0" />
+            <element signature="method#insert#0;class#BinaryTree#0" />
+            <element signature="method#delete#0;class#BinaryTree#0" />
+          </folding>
         </state>
       </provider>
     </entry>

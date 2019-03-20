@@ -349,4 +349,28 @@ public class BinaryTree<E extends Comparable<E>> {
         return true;
     }
     //endregion
+
+    //region 7 翻转二叉树 - 交互树的左右儿子节点，使用递归实现
+    private TreeNode<E> invertTree(TreeNode<E> root) {
+        if (root == null) {
+            return null;
+        }
+
+        TreeNode<E> temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+
+        if(root.left != null) {
+            invertTree(root.left);
+        }
+
+        if(root.right != null) {
+            invertTree(root.right);
+        }
+
+        return root;
+    }
+
+    //endregion
+
 }
