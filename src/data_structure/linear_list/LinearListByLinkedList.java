@@ -116,4 +116,32 @@ public class LinearListByLinkedList<E> {
         return result;
     }
 
+    //8 - 判断单链表是否有环
+    /*
+        *最容易想到的思路是存一个所有 Node 地址的 Hash 表，从头开始遍历，
+         将 Node 存到 Hash 表中，如果出现了重复，则说明链表有环。
+
+        *一个经典的方法是双指针（也叫快慢指针），使用两个指针遍历链表，
+         一个指针一次走一步，另一个一次走两步，如果链表有环，两个指针必然相遇。
+     */
+
+    static boolean hasCycle(Node<String> head) {
+        if(head == null) {
+            return false;
+        }
+
+        Node<String> slow = head;
+        Node<String> fast = head.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow == fast) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 }
