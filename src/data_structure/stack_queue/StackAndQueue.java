@@ -1,5 +1,7 @@
 package data_structure.stack_queue;
 
+import java.util.*;
+
 /**
  * 特殊的线性表 - 栈和队列 - 通过LinkedList可以实现栈和队列的操作！！！
  *
@@ -29,5 +31,25 @@ package data_structure.stack_queue;
  *           注意：PriorityQueue是一种树结构（堆）！！！
  */
 public class StackAndQueue {
+
+    //Stack: push \ pop
+    private void stackDemo() {
+        Stack<String> stack = new Stack<>();
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+
+        System.out.println(stack.pop());//C
+    }
+
+    //Queue:
+    private void queueDemo() {
+        Queue<String> queue = new LinkedList<>();
+        queue.offer("A");
+        queue.offer("B");
+        queue.offer("C");
+
+        System.out.println(queue.poll());//A
+    }
 
 }
