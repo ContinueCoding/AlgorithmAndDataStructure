@@ -144,4 +144,20 @@ public class LinearListByLinkedList<E> {
         return false;
     }
 
+    //9 - 单链表找中间节点 - 类似8
+    static Node<String> getMiddleNode(Node<String> head) {
+        if(head == null) {
+            return null;
+        }
+
+        Node<String> slow = head;
+        Node<String> fast = head.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
 }

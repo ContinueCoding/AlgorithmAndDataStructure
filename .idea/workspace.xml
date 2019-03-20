@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="递归&amp;非递归实现：fibonacci、最大公约数算法。">
+    <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java" afterDir="false" />
     </list>
@@ -40,8 +40,8 @@
       <file leaf-file-name="LinearListByLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+            <state relative-caret-position="1487">
+              <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -271,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552958160213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="链表 - 翻转单链表（递归&amp;非递归）">
+      <created>1553067775115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553067775115</updated>
+    </task>
+    <task id="LOCAL-00003" summary="链表 - 判断单链表是否有环。">
+      <created>1553068659154</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553068659154</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,7 +325,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="递归&amp;非递归实现：fibonacci、最大公约数算法。" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归&amp;非递归实现：fibonacci、最大公约数算法。" />
+    <MESSAGE value="链表 - 翻转单链表（递归&amp;非递归）" />
+    <MESSAGE value="链表 - 判断单链表是否有环。" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表 - 判断单链表是否有环。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/algorithm/other/CommonAlgorithmDemo.java">
@@ -569,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure/linear_list/LinearListByLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        <state relative-caret-position="1487">
+          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
         </state>
       </provider>
     </entry>
