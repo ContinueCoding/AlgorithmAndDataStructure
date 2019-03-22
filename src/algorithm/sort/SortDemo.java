@@ -230,12 +230,12 @@ public class SortDemo {
         while (i <= j) {
 
             //从最左侧正序寻找，直到找到比支点大的数
-            while (array[i] > pivot) {
+            while (array[i] < pivot) {
                 i++;
             }
 
             //从最右侧逆序寻找，直到找到比支点小的数
-            while (pivot > array[j]) {
+            while (array[j] > pivot) {
                 j--;
             }
 

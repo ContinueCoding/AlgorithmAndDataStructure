@@ -1,3 +1,7 @@
+import algorithm.sort.SortDemo;
+
+import java.util.Arrays;
+
 /**
  * 算法与数据结构
  *
@@ -11,5 +15,11 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("algorithm and data structure...");
+
+        int[] array = {23,5,35,4,22,67,13,55};
+
+        SortDemo.quickSort(array, 0, array.length - 1);
+
+        System.out.println(Arrays.toString(array));
     }
 }
