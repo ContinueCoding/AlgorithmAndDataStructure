@@ -1,4 +1,4 @@
-package algorithm.other;
+package data_structure_and_algorithm.other;
 
 /**
  * 其他常用算法介绍

@@ -1,4 +1,4 @@
-import algorithm.sort.SortDemo;
+import data_structure_and_algorithm.sort.SortDemo;
 
 import java.util.Arrays;
 

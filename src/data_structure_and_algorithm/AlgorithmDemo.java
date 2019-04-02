@@ -1,4 +1,4 @@
-package algorithm;
+package data_structure_and_algorithm;
 
 /**
  * 【算法简介】

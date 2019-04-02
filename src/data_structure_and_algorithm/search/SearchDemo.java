@@ -1,4 +1,4 @@
-package algorithm.search;
+package data_structure_and_algorithm.search;
 
 /**
  * 查找算法

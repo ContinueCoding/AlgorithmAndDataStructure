@@ -1,4 +1,4 @@
-package data_structure.linear_list;
+package data_structure_and_algorithm.linear_list;
 
 /**
  * 数组实现线性表 - Java具体实现可参考ArrayList源码！

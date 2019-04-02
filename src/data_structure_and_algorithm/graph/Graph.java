@@ -1,4 +1,4 @@
-package data_structure.graph;
+package data_structure_and_algorithm.graph;
 
 /**
  * 图 - 图是一种较线性表和树更为复杂的数据结构：
