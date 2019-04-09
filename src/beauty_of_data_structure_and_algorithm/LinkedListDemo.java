@@ -40,6 +40,16 @@ public class LinkedListDemo {
         Node<Integer> mergeResult = mergeSortedList(list3, list4);
         //Node<Integer> mergeResult = mergeSortedListRecursive(list3, list4);
         printList(mergeResult);
+
+        //5 - 删除倒数第n个结点
+        Node<Integer> list5 = new Node<>(1, null);
+        list5.next = new Node<>(2, null);
+        list5.next.next = new Node<>(3, null);
+        list5.next.next.next = new Node<>(4, null);
+        list5.next.next.next.next = new Node<>(5, null);
+
+        list5 = deleteLastN(list5, 5);
+        printList(list5);
     }
 
     //region 链表常见题目
@@ -195,6 +205,34 @@ public class LinkedListDemo {
         return head;
     }
 
+    //5 - 删除链表倒数第n个结点(链表size > n)
+    //思路：
+    //  1）如果链表长度刚好为n，则直接删除头结点；
+    //  2）如果大于n，则定义2个指针，其中一个先后移n次，然后2个指针同时后移，
+    //     直到fast指到末尾指针，则slow指向的是待删除结点的前一个结点！
+    private static Node<Integer> deleteLastN(Node<Integer> head, int index) {
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+
+        for (int i = 0; i < index; i++) {
+            fast = fast.next;
+        }
+
+        //链表长度为n，则直接删除head
+        if(fast == null) {
+            head = head.next;
+            return head;
+        }
+
+        //2个指针同时后移，直到fast到尾部（注意循环结束条件 - 次数）
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        slow.next = slow.next.next;
+        return head;
+    }
     //endregion
 
     private static <T> void printList(Node<T> head) {
