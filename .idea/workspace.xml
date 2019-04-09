@@ -18,12 +18,12 @@
       <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="312">
+              <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
               <folding>
                 <element signature="method#reverseList#0;class#LinkedListDemo#0" />
                 <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
-                <element signature="method#printList#0;class#LinkedListDemo#0" />
+                <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
               </folding>
             </state>
           </provider>
@@ -32,8 +32,8 @@
       <file leaf-file-name="LinearListByLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            <state relative-caret-position="2482">
+              <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="160" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -95,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +132,7 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,15 +298,38 @@
       <option name="project" value="LOCAL" />
       <updated>1554792390071</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="数据结构与算法之美 - 链表：判断单链表是否有环。">
+      <created>1554793335680</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554793335681</updated>
+    </task>
+    <task id="LOCAL-00011" summary="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。">
+      <created>1554793771957</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554793771957</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -318,7 +341,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -346,7 +369,9 @@
     <MESSAGE value="Sort - quick sort demo; from small to big。" />
     <MESSAGE value="数据结构与算法之美 - 数组：插入 &amp; 删除 &amp; 随机访问 &amp; 插入删除优化思路。" />
     <MESSAGE value="数据结构与算法之美 - 链表：翻转单链表（非递归、递归实现）。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 链表：翻转单链表（非递归、递归实现）。" />
+    <MESSAGE value="数据结构与算法之美 - 链表：判断单链表是否有环。" />
+    <MESSAGE value="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,13 +379,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="48" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
+          <folding>
+            <element signature="method#reverseList#0;class#LinkedListDemo#0" />
+            <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
+            <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" column="4" lean-forward="true" selection-start-line="146" selection-start-column="4" selection-end-line="160" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -368,10 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="e#1834#1858#0" />
-            <element signature="e#1949#1973#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -400,16 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2992">
           <caret line="359" column="31" lean-forward="true" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -417,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3213">
           <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
-          <folding>
-            <element signature="method#shellSort#0;class#SortDemo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,10 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="e#1834#1858#0" />
-            <element signature="e#1949#1973#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
-          <folding>
-            <element signature="method#shellSort#0;class#SortDemo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,10 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="e#1834#1858#0" />
-            <element signature="e#1949#1973#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,16 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,10 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="143" column="29" lean-forward="true" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,10 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="e#1834#1858#0" />
-            <element signature="e#1949#1973#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,16 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="359" column="31" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="143" column="33" lean-forward="true" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
-          <folding>
-            <element signature="method#shellSort#0;class#SortDemo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,19 +721,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        <state relative-caret-position="2482">
+          <caret line="146" column="4" selection-start-line="146" selection-start-column="4" selection-end-line="160" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="312">
+          <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
           <folding>
             <element signature="method#reverseList#0;class#LinkedListDemo#0" />
             <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
-            <element signature="method#printList#0;class#LinkedListDemo#0" />
+            <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
           </folding>
         </state>
       </provider>

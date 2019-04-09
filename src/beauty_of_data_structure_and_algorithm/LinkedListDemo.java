@@ -11,23 +11,36 @@ public class LinkedListDemo {
         list1.next.next = new Node<>("C", null);
         list1.next.next.next = new Node<>("D", null);
 
-        //翻转
+        //1 - 翻转（递归、非递归）
         printList(list1);
         list1 = reverseList(list1);
         list1 = reverseListRecursive(list1);
         printList(list1);
 
-        //检测环
+        //2 - 检测环
         Node<String> list2 = list1;
         //list2.next.next.next.next = list2.next; //构造环
         System.out.println("list2是否有环：" + hasCycle(list2));
 
-        //找中间结点
+        //3 - 找中间结点
         list1.next.next.next.next = new Node<>("E", null);
         System.out.println("list1的中间结点是：" + getMiddleNode(list1).data);
 
-    }
+        //4 - 合并2个有序链表（递归、非递归）
+        Node<Integer> list3 = new Node<>(1, null);
+        list3.next = new Node<>(3, null);
+        list3.next.next = new Node<>(5, null);
+        list3.next.next.next = new Node<>(7, null);
 
+        Node<Integer> list4 = new Node<>(1, null);
+        list4.next = new Node<>(4, null);
+        list4.next.next = new Node<>(6, null);
+        list4.next.next.next = new Node<>(8, null);
+
+        Node<Integer> mergeResult = mergeSortedList(list3, list4);
+        //Node<Integer> mergeResult = mergeSortedListRecursive(list3, list4);
+        printList(mergeResult);
+    }
 
     //region 链表常见题目
     //1-单链表翻转(非递归)
@@ -116,9 +129,75 @@ public class LinkedListDemo {
         return slow;
     }
 
+    //4 - 合并2个有序链表得到一个新的有序链表(从小到大排序) - 非递归
+    private static Node<Integer> mergeSortedList(Node<Integer> head1, Node<Integer> head2) {
+        if(head1 == null) {
+            return head2;
+        }
+
+        if(head2 == null) {
+            return head1;
+        }
+
+        Node<Integer> temp = new Node<>(0, null);
+        //创建哨兵元素
+        Node<Integer> result = temp;
+        while (head1 != null && head2 != null) {
+            if(head1.data <= head2.data) {
+                temp.next = head1;
+                head1 = head1.next;
+                temp = temp.next;
+            } else {
+                temp.next = head2;
+                head2 = head2.next;
+                temp = temp.next;
+            }
+        }
+
+        //循环结束后，把剩余链表的结点加上
+        while (head1 != null) {
+            temp.next = head1;
+            head1 = head1.next;
+            temp = temp.next;
+        }
+
+        while (head2 != null) {
+            temp.next = head2;
+            head2 = head2.next;
+            temp = temp.next;
+        }
+
+        //去除第一个哨兵元素！
+        result = result.next;
+        return result;
+    }
+
+    //4 - 合并2个有序链表得到一个新的有序链表(从小到大排序) - 递归
+    private static Node<Integer> mergeSortedListRecursive(Node<Integer> head1, Node<Integer> head2) {
+        //递归结束条件
+        if(head1 == null) {
+            return head2;
+        }
+        if(head2 == null) {
+            return head1;
+        }
+
+        //递归合并
+        Node<Integer> head = null;
+        if(head1.data <= head2.data) {
+            head = head1;
+            head.next = mergeSortedListRecursive(head1.next, head2);
+        } else {
+            head = head2;
+            head.next = mergeSortedListRecursive(head1, head2.next);
+        }
+
+        return head;
+    }
+
     //endregion
 
-    private static void printList(Node<String> head) {
+    private static <T> void printList(Node<T> head) {
         StringBuilder sb = new StringBuilder();
         while (head != null) {
             sb.append(head.data + " -> ");
