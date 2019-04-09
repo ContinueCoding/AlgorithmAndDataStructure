@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +19,25 @@
       <file leaf-file-name="ReadMe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="class#ArrayQueue#0;class#QueueDemo#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="439">
@@ -92,8 +105,9 @@
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java" />
       </list>
     </option>
   </component>
@@ -348,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554812800264</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="数据结构与算法之美 - 栈：基于数组、链表实现栈。">
+      <created>1554814698744</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554814698744</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -362,6 +383,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
@@ -417,16 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -771,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -810,6 +815,23 @@
             <element signature="class#ArrayStack#0;class#StackDemo#0" />
             <element signature="class#LinkListStack#0;class#StackDemo#0" />
             <element signature="class#Node#0;class#StackDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="class#ArrayQueue#0;class#QueueDemo#0" />
           </folding>
         </state>
       </provider>
