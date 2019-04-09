@@ -2,7 +2,7 @@ package beauty_of_data_structure_and_algorithm;
 
 import java.util.Arrays;
 
-//数组
+//数组（第05讲）
 public class ArrayDemo {
 
     public static void main(String[] args) {
