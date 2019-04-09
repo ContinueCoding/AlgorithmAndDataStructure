@@ -11,12 +11,16 @@ public class LinkedListDemo {
         list1.next.next = new Node<>("C", null);
         list1.next.next.next = new Node<>("D", null);
 
+        //翻转
         printList(list1);
-
         //list1 = reverseList(list1);
         list1 = reverseListRecursive(list1);
         printList(list1);
 
+        //检测环
+        Node<String> list2 = list1;
+        list2.next.next.next.next = list2.next; //构造环
+        System.out.println("list2是否有环：" + hasCycle(list2));
     }
 
 
@@ -64,6 +68,30 @@ public class LinkedListDemo {
         head.next = null;
 
         return result;
+    }
+
+    //2-链表中环的检测
+    private static boolean hasCycle(Node<String> head) {
+        if(head == null || head.next == null) {
+            return false;
+        }
+
+        //快慢指针
+        Node<String> slow = head;
+        Node<String> fast = head.next;
+
+        //结束条件（仅判断快指针非空即可）
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            //每循环一次，判断一次是否有环！
+            if(slow == fast) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     //endregion
