@@ -8,6 +8,8 @@ public class ReadMe {
      *
      *  2）链表（第6、7讲） -- LinkedListDemo
      *
+     *  3）栈（第8讲）-- StackDemo
+     *
      *
      */
 }
