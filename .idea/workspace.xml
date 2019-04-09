@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
+    <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="数据结构与算法之美 - 链表：删除链表倒数第N个结点。">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
-                <element signature="method#reverseList#0;class#LinkedListDemo#0" />
-                <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
                 <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -79,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -101,30 +109,6 @@
             <path>
               <item name="AlgorithmAndDataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmAndDataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmAndDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmAndDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmAndDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmAndDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmAndDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmAndDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgorithmAndDataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgorithmAndDataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="linear_list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554793771957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="数据结构与算法之美 - 链表：合并2个有序单链表（递归 &amp; 非递归）。">
+      <created>1554800758371</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554800758371</updated>
+    </task>
+    <task id="LOCAL-00013" summary="数据结构与算法之美 - 链表：删除链表倒数第N个结点。">
+      <created>1554803038702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554803038702</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -336,12 +334,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18589744" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18589744" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -371,7 +369,9 @@
     <MESSAGE value="数据结构与算法之美 - 链表：翻转单链表（非递归、递归实现）。" />
     <MESSAGE value="数据结构与算法之美 - 链表：判断单链表是否有环。" />
     <MESSAGE value="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。" />
+    <MESSAGE value="数据结构与算法之美 - 链表：合并2个有序单链表（递归 &amp; 非递归）。" />
+    <MESSAGE value="数据结构与算法之美 - 链表：删除链表倒数第N个结点。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 链表：删除链表倒数第N个结点。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -379,18 +379,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="48" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
-          <folding>
-            <element signature="method#reverseList#0;class#LinkedListDemo#0" />
-            <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
-            <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2482">
@@ -728,13 +716,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="185" column="34" lean-forward="true" selection-start-line="185" selection-start-column="34" selection-end-line="185" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <element signature="method#reverseList#0;class#LinkedListDemo#0" />
-            <element signature="method#reverseListRecursive#0;class#LinkedListDemo#0" />
             <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
