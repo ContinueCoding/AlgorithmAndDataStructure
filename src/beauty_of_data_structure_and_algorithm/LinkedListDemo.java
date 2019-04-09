@@ -13,14 +13,19 @@ public class LinkedListDemo {
 
         //翻转
         printList(list1);
-        //list1 = reverseList(list1);
+        list1 = reverseList(list1);
         list1 = reverseListRecursive(list1);
         printList(list1);
 
         //检测环
         Node<String> list2 = list1;
-        list2.next.next.next.next = list2.next; //构造环
+        //list2.next.next.next.next = list2.next; //构造环
         System.out.println("list2是否有环：" + hasCycle(list2));
+
+        //找中间结点
+        list1.next.next.next.next = new Node<>("E", null);
+        System.out.println("list1的中间结点是：" + getMiddleNode(list1).data);
+
     }
 
 
@@ -92,6 +97,23 @@ public class LinkedListDemo {
         }
 
         return false;
+    }
+
+    //3 - 单链表找中间节点（无环单链表） - 类似2
+    //TODO 区分单数、偶数个结点。
+    static Node<String> getMiddleNode(Node<String> head) {
+        if(head == null) {
+            return null;
+        }
+
+        Node<String> slow = head;
+        Node<String> fast = head.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
     }
 
     //endregion
