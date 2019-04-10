@@ -7,7 +7,7 @@ public class QueueDemo {
 
     }
 
-    //1-基于数组的队列 - 支持数据搬移！
+    //1-基于数组的队列 - TODO【重点】enqueue支持数据搬移！
     static class ArrayQueue {
         private String[] data;
         private int capacity;
@@ -67,7 +67,7 @@ public class QueueDemo {
 
     }
 
-    //2-基于链表的队列
+    //2-基于链表的队列 - TODO 【重点】dequeue时考虑只有一个元素的情况（更新tail指针）！
     static class LinkListQueue {
         private Node head, tail;
 
@@ -101,7 +101,7 @@ public class QueueDemo {
             String result = head.data;
             head = head.next;
 
-            //TODO Why - 只有一个元素的队列（head = tail, 指向唯一的元素），执行一次出队后，需要置空tail！
+            //TODO 只有一个元素的队列（head = tail, 指向唯一的元素），执行一次出队后，需要置空tail！
             if(head == null) {
                 tail = null;
             }
@@ -121,7 +121,7 @@ public class QueueDemo {
         }
     }
 
-    //3-循环队列（数组） - 队空、队满条件 & 循环+1
+    //3-循环队列（数组） - TODO 【重点】队空、队满条件 & 循环+1
     //浪费一个空间！
     static class CircularQueue {
         private String[] data;
