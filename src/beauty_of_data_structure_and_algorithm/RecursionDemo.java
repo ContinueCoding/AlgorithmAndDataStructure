@@ -3,6 +3,8 @@ package beauty_of_data_structure_and_algorithm;
 //递归
 public class RecursionDemo {
 
+    private static long count = 0;
+
     public static void main(String[] args) {
 
         System.out.println("斐波那契数列（n = 9）：" + fibonacci(9));
@@ -20,7 +22,8 @@ public class RecursionDemo {
         System.out.println("台阶方法（10）：" + getCount2(10));
         System.out.println();
 
-
+        System.out.println("10个盘子的hanoi塔玩法：");
+        hanoiTower(16, "A", "B", "C");
     }
 
     //1 - fibonacci数列
@@ -120,6 +123,18 @@ public class RecursionDemo {
         return ret;
     }
 
-    //TODO 5 河内塔
+    //TODO 5 汉诺塔
+    //有A、B、C 3个塔，A塔上有n个盘子，盘子从小到大（由上到下）；
+    //现借助B塔，将A塔的所有盘子移动到C塔上，在移动过程中塔上的盘子符合从小到大！
+    //需要：2^n - 1次！
+    public static void hanoiTower(int n, String aTower, String bTower, String cTower) {
+        if (n == 1) {
+            System.out.println(aTower + " --> " + cTower + "(" + (++count) + ")");
+        } else {
+            hanoiTower(n-1, aTower, cTower, bTower);
+            System.out.println(aTower + " --> " + cTower + "(" + (++count) + ")");
+            hanoiTower(n-1, bTower, aTower, cTower);
+        }
+    }
 
 }
