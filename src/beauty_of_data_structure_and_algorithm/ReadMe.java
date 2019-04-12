@@ -14,6 +14,6 @@ public class ReadMe {
      *
      *  5）递归（第10讲） -- RecursionDemo
      *
-     *
+     *  6）排序（第11 ~ 14讲）-- SortDemo
      */
 }

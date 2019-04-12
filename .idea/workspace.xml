@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecursionDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java">
+      <file leaf-file-name="ReadMe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state relative-caret-position="272">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonAlgorithmDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java">
+      <file leaf-file-name="SortDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -77,10 +77,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java" />
       </list>
     </option>
   </component>
@@ -154,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecursionDemo">
+  <component name="RunManager" selected="Application.SortDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -176,6 +177,17 @@
     </configuration>
     <configuration name="RecursionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beauty_of_data_structure_and_algorithm.RecursionDemo" />
+      <module name="AlgorithmAndDataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beauty_of_data_structure_and_algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beauty_of_data_structure_and_algorithm.SortDemo" />
       <module name="AlgorithmAndDataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -242,9 +254,11 @@
       <item itemvalue="Application.LinkedListDemo" />
       <item itemvalue="Application.StackDemo" />
       <item itemvalue="Application.RecursionDemo" />
+      <item itemvalue="Application.SortDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortDemo" />
         <item itemvalue="Application.RecursionDemo" />
         <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.LinkedListDemo" />
@@ -389,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554890833101</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="数据结构与算法之美 - 递归：fibonacci、最大公约数、最小公倍数、n级台阶走法等。">
+      <created>1554906142625</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554906142625</updated>
+    </task>
+    <task id="LOCAL-00020" summary="数据结构与算法之美 - 递归：汉诺塔递归实现。">
+      <created>1554978783240</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554978783240</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -413,7 +441,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23846154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.102564104" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
@@ -454,7 +482,9 @@
     <MESSAGE value="数据结构与算法之美 - 队列：基于数组、链表实现；循环队列。" />
     <MESSAGE value="数据结构与算法之美 - 队列：基于数组、链表实现；循环队列 - 重点。" />
     <MESSAGE value="数据结构与算法之美 - 数组：实现泛型数组类 - 获取长度、容量、添加、删除元素等。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 数组：实现泛型数组类 - 获取长度、容量、添加、删除元素等。" />
+    <MESSAGE value="数据结构与算法之美 - 递归：fibonacci、最大公约数、最小公倍数、n级台阶走法等。" />
+    <MESSAGE value="数据结构与算法之美 - 递归：汉诺塔递归实现。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 递归：汉诺塔递归实现。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,13 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
@@ -828,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -860,17 +876,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="884">
           <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>
