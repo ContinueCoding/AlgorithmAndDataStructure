@@ -12,6 +12,10 @@ public class SortDemo {
         int[] array1 = {2, 5, 1, 6, 3, 4, 8, 7};
         insertSort(array1, 8);
         System.out.println("array1插入排序后：" + Arrays.toString(array1));
+
+        int[] array2 = {2, 5, 1, 6, 8, 7, 3, 4};
+        selectSort(array2);
+        System.out.println("array2选择排序后：" + Arrays.toString(array2));
     }
 
     //1 - 冒泡排序
@@ -87,6 +91,30 @@ public class SortDemo {
     }
 
     //3 - 选择排序
+    public static void selectSort(int[] array) {
+        if(array == null || array.length <= 1) {
+            return;
+        }
 
+        //外层循环代表本次查找的最小值需要替换的位置
+        for (int i = 0; i < array.length - 1; i++) {
+            //初始值 - 本次循环后需要替换的位置
+            int minIndex = i;
+
+            //每次从未排序数组中找到最小值的index
+            for (int j = i + 1; j < array.length; j++) {
+                if(array[j] < array[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            //将最小值放在最前面
+            if(minIndex != i) {
+                int temp = array[minIndex];
+                array[minIndex] = array[i];
+                array[i] = temp;
+            }
+        }
+    }
 
 }
