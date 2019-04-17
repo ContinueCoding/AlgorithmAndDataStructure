@@ -2,6 +2,21 @@ package beauty_of_data_structure_and_algorithm;
 
 import java.util.Arrays;
 
+/**
+ * 排序算法
+ *  如何分析一个排序算法：
+ *      1）算法的执行效率：
+ *          *最好、最坏、平均情况时间复杂度；
+ *          *时间复杂度的系数、常数、低阶；
+ *          *比较次数或交换（移动）次数。
+ *
+ *      2）算法的内存消耗：
+ *          *O(1) \ O(n)：排序的数据量很大时尤为重要；
+ *
+ *      3）算法的稳定性：
+ *          *如果参与排序的字段有多个，且有优先级时，稳定性是必须要考虑的因素。
+ *
+ */
 public class SortDemo {
 
     public static void main(String[] args) {
@@ -18,7 +33,16 @@ public class SortDemo {
         System.out.println("array2选择排序后：" + Arrays.toString(array2));
     }
 
-    //1 - 冒泡排序
+    /**
+     * 1 - 冒泡排序
+     *
+     *  *空间复杂度：O(1);
+     *  *稳定性：稳定；
+     *  *时间复杂度：最好 - O(n); 最坏 - O(n^2); 平均 - O(n^2)
+     *
+     * @param array 数组
+     * @param n 数组长度
+     */
     public static void bubbleSort(int[] array, int n) {
         if(n <= 1) {
             return;
@@ -44,7 +68,16 @@ public class SortDemo {
         }
     }
 
-    //2 - 插入排序
+    /**
+     * 2 - 插入排序
+     *
+     *  *空间复杂度：O(1);
+     *  *稳定性：稳定；
+     *  *时间复杂度：最好 - O(n); 最坏 - O(n^2); 平均 - O(n^2)
+     *
+     * @param array 数组
+     * @param n 数组长度
+     */
     public static void insertSort(int[] array, int n) {
         if(n <= 1) {
             return;
@@ -90,7 +123,15 @@ public class SortDemo {
         System.out.println(Arrays.toString(array));
     }
 
-    //3 - 选择排序
+    /**
+     * 3 - 选择排序
+     *
+     *  *空间复杂度：O(1);
+     *  *稳定性：不稳定；
+     *  *时间复杂度：最好 - O(n^2); 最坏 - O(n^2); 平均 - O(n^2)
+     *
+     * @param array 数组
+     */
     public static void selectSort(int[] array) {
         if(array == null || array.length <= 1) {
             return;
