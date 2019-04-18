@@ -27,8 +27,21 @@
       <file leaf-file-name="SortDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+            <state relative-caret-position="356">
+              <caret line="175" column="29" lean-forward="true" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+              <folding>
+                <element signature="e#4070#4071#0" expanded="true" />
+                <element signature="e#4119#4120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -36,8 +49,8 @@
       <file leaf-file-name="SortDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/sort/SortDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="153" column="9" lean-forward="true" selection-start-line="137" selection-start-column="8" selection-end-line="153" selection-end-column="9" />
+            <state relative-caret-position="4216">
+              <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -61,6 +74,7 @@
       <find>ProxyClassFactory</find>
       <find>defineClass</find>
       <find>printList</find>
+      <find>归并排序</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,6 +120,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,13 +165,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Stack&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Stack.java&#10;ClassLo&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Proxy&#9;PSI&#9;JAVA://java.lang.reflect.Proxy&#10;ArrayUtil&#9;PSI&#9;JAVA://com.sun.tools.javac.util.ArrayUtils&#10;Main&#9;FILE&#9;file:///Users/huoxy/IdeaProjects/AlgorithmAndDataStructure/src/Main.java&#10;LinkedList&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
+    <property name="SearchEverywhereHistoryKey" value="ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Stack&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Stack.java&#10;ClassLo&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Proxy&#9;PSI&#9;JAVA://java.lang.reflect.Proxy&#10;ArrayUtil&#9;PSI&#9;JAVA://com.sun.tools.javac.util.ArrayUtils&#10;Main&#9;FILE&#9;file:///Users/huoxy/IdeaProjects/AlgorithmAndDataStructure/src/Main.java&#10;LinkedList&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -446,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555322358090</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="数据结构与算法之美 - 排序：选择排序。">
+      <created>1555323130576</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555323130576</updated>
+    </task>
+    <task id="LOCAL-00024" summary="数据结构与算法之美 - 排序：冒泡、插入、选择排序的性能分析。">
+      <created>1555482728269</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555482728269</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -470,12 +498,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21538462" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31923077" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17381974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -515,7 +543,9 @@
     <MESSAGE value="数据结构与算法之美 - 递归：汉诺塔递归实现。" />
     <MESSAGE value="数据结构与算法之美 - 排序：冒泡排序。" />
     <MESSAGE value="数据结构与算法之美 - 排序：插入排序。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 排序：插入排序。" />
+    <MESSAGE value="数据结构与算法之美 - 排序：选择排序。" />
+    <MESSAGE value="数据结构与算法之美 - 排序：冒泡、插入、选择排序的性能分析。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 排序：冒泡、插入、选择排序的性能分析。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,13 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/linear_list/LinearListByLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="24" lean-forward="true" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/stack_queue/StackAndQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -541,16 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2992">
           <caret line="359" column="31" lean-forward="true" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,16 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,16 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="359" column="31" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#nonRecursivePreOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveInOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursivePostOrder#0;class#BinaryTree#0" />
-            <element signature="method#nonRecursiveLevelOrder#0;class#BinaryTree#0" />
-            <element signature="method#search#0;class#BinaryTree#0" />
-            <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="method#delete#0;class#BinaryTree#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
           <caret line="243" column="62" selection-start-line="243" selection-start-column="62" selection-end-line="243" selection-end-column="62" />
-          <folding>
-            <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,11 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
           <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="class#ArrayStack#0;class#StackDemo#0" />
-            <element signature="class#LinkListStack#0;class#StackDemo#0" />
-            <element signature="class#Node#0;class#StackDemo#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,24 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#3077#3078#0" expanded="true" />
-            <element signature="e#3106#3107#0" expanded="true" />
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3780#3781#0" expanded="true" />
-            <element signature="e#3818#3819#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-            <element signature="e#3899#3900#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,15 +890,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/sort/SortDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="153" column="9" lean-forward="true" selection-start-line="137" selection-start-column="8" selection-end-line="153" selection-end-column="9" />
+        <state relative-caret-position="4216">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        <state relative-caret-position="356">
+          <caret line="175" column="29" lean-forward="true" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+          <folding>
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4119#4120#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

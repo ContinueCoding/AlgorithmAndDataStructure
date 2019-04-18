@@ -31,6 +31,10 @@ public class SortDemo {
         int[] array2 = {2, 5, 1, 6, 8, 7, 3, 4};
         selectSort(array2);
         System.out.println("array2选择排序后：" + Arrays.toString(array2));
+
+        int[] array3 = {9, 2, 5, 1, 10, 6, 8, 7, 3, 4};
+        mergeSort(array3, 10);
+        System.out.println("array3归并排序后：" + Arrays.toString(array3));
     }
 
     /**
@@ -155,6 +159,68 @@ public class SortDemo {
                 array[minIndex] = array[i];
                 array[i] = temp;
             }
+        }
+    }
+
+    /**
+     * 4 归并排序
+     *
+     *  *空间复杂度：O();
+     *  *稳定性：稳定；
+     *  *时间复杂度：最好\最坏\平均 - O(nlogn)
+     *
+     * @param array array
+     * @param n length
+     */
+    public static void mergeSort(int[] array, int n) {
+        mergeSortRecursive(array, 0, n-1);
+    }
+
+    /**
+     * 归并排序递归过程
+     * @param array array
+     * @param start array的起始index
+     * @param end array的结束index（含）
+     */
+    private static void mergeSortRecursive(int[] array, int start, int end) {
+        //终止条件
+        if(start >= end) {
+            return;
+        }
+
+        int middle = (start + end)/2;
+        mergeSortRecursive(array, start, middle);//递归左半边数组
+        mergeSortRecursive(array, middle + 1, end);//递归右半边数组
+        merge(array, start, middle, end);//merge已排好序的2个子数组
+    }
+
+    //合并array数组的前[start, middle)、后[middle, end)2部分
+    private static void merge(int[] array, int start, int middle, int end) {
+        //空间复杂度
+        int[] temp = new int[end - start + 1];
+
+        int i = start;
+        int j = middle + 1;
+        int k = 0;
+
+        while (i <= middle && j <= end) {
+            if(array[i] <= array[j]) {
+                temp[k++] = array[i++];
+            } else {
+                temp[k++] = array[j++];
+            }
+        }
+
+        while (i <= middle) {
+            temp[k++] = array[i++];
+        }
+
+        while (j <= end) {
+            temp[k++] = array[j++];
+        }
+
+        for (int l = 0; l < temp.length; l++) {
+            array[start + l] = temp[l];
         }
     }
 
