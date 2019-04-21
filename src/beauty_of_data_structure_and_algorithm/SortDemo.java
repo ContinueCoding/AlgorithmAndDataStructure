@@ -165,7 +165,7 @@ public class SortDemo {
     /**
      * 4 归并排序
      *
-     *  *空间复杂度：O();
+     *  *空间复杂度：O(n);
      *  *稳定性：稳定；
      *  *时间复杂度：最好\最坏\平均 - O(nlogn)
      *
@@ -222,6 +222,30 @@ public class SortDemo {
         for (int l = 0; l < temp.length; l++) {
             array[start + l] = temp[l];
         }
+    }
+
+    /**
+     * 5 快速排序
+     *
+     *  *空间复杂度：O(1);
+     *  *稳定性：不稳定；
+     *  *时间复杂度：最好 - O(nlogn); 最坏 - O(n^2); 平均 - O(nlogn)
+     *
+     * @param array 数组
+     * @param length 长度
+     */
+    public static void quickSort(int[] array, int length) {
+
+    }
+
+    private static void quickSortRecursive(int[] array, int start, int end) {
+
+
+    }
+
+    private static int partitioin(int array, int start, int end) {
+
+        return 0;
     }
 
 }
