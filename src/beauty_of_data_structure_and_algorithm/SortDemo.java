@@ -20,9 +20,9 @@ import java.util.Arrays;
 public class SortDemo {
 
     public static void main(String[] args) {
-        int[] array = {2, 5, 1, 6, 3, 4};
-        bubbleSort(array, 6);
-        System.out.println("array冒泡排序后：" + Arrays.toString(array));
+        int[] array0 = {2, 5, 1, 6, 3, 4};
+        bubbleSort(array0, 6);
+        System.out.println("array0冒泡排序后：" + Arrays.toString(array0));
 
         int[] array1 = {2, 5, 1, 6, 3, 4, 8, 7};
         insertSort(array1, 8);
@@ -35,6 +35,14 @@ public class SortDemo {
         int[] array3 = {9, 2, 5, 1, 10, 6, 8, 7, 3, 4};
         mergeSort(array3, 10);
         System.out.println("array3归并排序后：" + Arrays.toString(array3));
+
+        int[] array4 = {8, 2, 6, 1, 5, 9, 4, 3, 7};
+        quickSort(array4, 9);
+        System.out.println("array4快速排序后：" + Arrays.toString(array4));
+
+        int[] array5 = {8, 2, 6, 1, 5, 9, 4, 3, 10, 7};
+        quickSort2(array5, 0, 9);
+        System.out.println("array5快速排序（2）后：" + Arrays.toString(array5));
     }
 
     /**
@@ -232,20 +240,111 @@ public class SortDemo {
      *  *时间复杂度：最好 - O(nlogn); 最坏 - O(n^2); 平均 - O(nlogn)
      *
      * @param array 数组
-     * @param length 长度
+     * @param length 数组长度
      */
     public static void quickSort(int[] array, int length) {
-
+        quickSortRecursive(array, 0, length - 1);
     }
 
+    //快速排序的递归过程 & 终止条件
     private static void quickSortRecursive(int[] array, int start, int end) {
+        if(start >= end) {
+            return;
+        }
 
-
+        int partition = partition(array, start, end);
+        quickSortRecursive(array, start, partition - 1);
+        quickSortRecursive(array, partition + 1, end);
     }
 
-    private static int partitioin(int array, int start, int end) {
+    /*
+        快速排序的分区函数：选择一个pivot，然后把array分为小于pivot、大于pivot的两部分，然后返回pivot的下标
 
-        return 0;
+        思路：
+     */
+    private static int partition(int[] array, int start, int end) {
+
+        int pivot = array[end];
+
+        int i = start;
+        for (int j = i ; j < end; j ++) {
+            if(array[j] < pivot) {
+                int temp = array[j];
+                array[j] = array[i];
+                array[i] = temp;
+                i++;
+            }
+        }
+
+        //i即为pivot的下标
+        int temp = array[i];
+        array[i] = array[end];
+        array[end] = temp;
+
+        return i;
+    }
+
+    /**
+     * 5-2 快速排序2 - VIP!!!
+     *
+     *  基本思想：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，
+     *          然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以[递归]进行，以此达到整个数据变成有序序列。
+     *
+     *  更简单的理解：在数组中找一个支点(任意),经过一趟排序后，支点左边的数都要比支点小，支点右边的数都要比支点大！
+     *
+     *  性能：
+     *      时间复杂度：平均 - O(n*logn); 最佳 - O(n*logn); 最差 - O(n^2);
+     *      空间复杂度：O(1)
+     *
+     *  稳定性：不稳定！
+     *
+     *  TODO：http://www.cnblogs.com/noKing/archive/2017/11/29/7922397.html 快速排序 & 优化！
+     *
+     * @param array 待排序数组
+     * @param left  数组最左侧元素index
+     * @param right 数组最右侧元素index
+     */
+    private static void quickSort2(int[] array, int left, int right) {
+        int i = left;
+        int j = right;
+
+        //支点 - 取中间的元素作为pivot
+        int pivot = array[(left + right) / 2];
+
+        //左右两端进行扫描，只要两端还没有交替，就一直扫描（此while保证了第一趟排序支点的左边比支点小，支点的右边比支点大！）
+        while (i <= j) {
+
+            //从最左侧正序寻找，直到找到比支点大的数
+            while (array[i] < pivot) {
+                i++;
+            }
+
+            //从最右侧逆序寻找，直到找到比支点小的数
+            while (array[j] > pivot) {
+                j--;
+            }
+
+            //此时已经分别找到了比支点小的数(右边)、比支点大的数(左边)，它们进行交换
+            if (i <= j) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+
+                //继续while循环，查找下一组需要交换的元素！
+                i++;
+                j--;
+            }
+        }
+
+        //“左边”再做排序，直到左边剩下一个数(递归出口)
+        if(left < j) {
+            quickSort2(array, left, j);
+        }
+
+        //“右边”再做排序，直到右边剩下一个数(递归出口)
+        if(right > i) {
+            quickSort2(array, i, right);
+        }
     }
 
 }

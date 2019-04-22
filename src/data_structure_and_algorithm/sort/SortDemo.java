@@ -209,7 +209,7 @@ public class SortDemo {
      *
      *  性能：
      *      时间复杂度：平均 - O(n*logn); 最佳 - O(n*logn); 最差 - O(n^2);
-     *      空间复杂度：O(n*logn)
+     *      空间复杂度：O(1)
      *
      *  稳定性：不稳定！
      *
