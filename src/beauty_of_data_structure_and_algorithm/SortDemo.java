@@ -136,6 +136,50 @@ public class SortDemo {
     }
 
     /**
+     * 2-2 Shell排序 - 又称缩小增量排序
+     *
+     *  基本思想、具体流程：
+     * 　　1、将包含n个元素的数组，分成n/2个数组序列，第一个数据和第n/2+1个数据为一对...
+     * 　　2、对每对数据进行比较和交换，排好顺序；
+     * 　　3、然后分成n/4个数组序列，再次排序；
+     * 　　4、不断重复以上过程，随着序列减少并直至为1，排序完成。
+     *
+     *  直观上看：就是把数列进行分组(不停使用插入排序)，直至从宏观上看起来有序，最后插入排序起来就容易了(无须多次移位或交换)。
+     *
+     *          *可以用一个序列来表示增量：{n/2,(n/2)/2...1}，每次增量都/2。
+     *
+     *  性能：
+     *      时间复杂度：平均 - O(n^1.3); 最佳 - O(n); 最差 - O(n^2);
+     *      空间复杂度：O(1)
+     *
+     *  稳定性：稳定！
+     */
+    public static void shellSort(int[] array) {
+        //增量每次都减半
+        for (int step = array.length / 2; step > 0; step /= 2) {
+
+            //从增量那组开始进行插入排序，直至完毕
+            for (int i = step; i < array.length; i++) {
+
+                //记录需要插入的元素
+                int j = i;
+                int temp = array[j];
+
+                // j - step 就是代表与它同组隔壁（左侧）的元素 - 插入排序！
+                while (j - step >= 0 && array[j - step] > temp) {
+                    array[j] = array[j - step];
+                    j = j - step;
+                }
+
+                //插入到正确位置
+                array[j] = temp;
+            }
+        }
+
+        System.out.println(Arrays.toString(array));
+    }
+
+    /**
      * 3 - 选择排序
      *
      *  *空间复杂度：O(1);
