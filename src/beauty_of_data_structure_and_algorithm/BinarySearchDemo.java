@@ -25,6 +25,13 @@ public class BinarySearchDemo {
 
         System.out.println("二分求平方根：24.6的平方根 = " + getSqrt(24.6));
         System.out.println("Math.sqrt()求平方根：24.6的平方根 = " + Math.sqrt(24.6));
+
+
+        //二分查找的变体：
+        int[] array2 = {1, 3, 4, 5, 6, 8, 8, 8, 13, 15};
+
+        System.out.println("二分查找变体1：第一个8 = " + binarySearch_FindFirst(array2, 8));
+        System.out.println("二分查找变体2：最后一个8 = " + binarySearch_FindLast(array2, 8));
     }
 
     /**
@@ -109,5 +116,73 @@ public class BinarySearchDemo {
         System.out.println("getSqrt() - count = " + count);
         return result;
     }
+
+    //TODO 二分查找变体：数组存在相等的值！
+
+    /**
+     * 3 - 1 二分查找变体1 - 查找第一个值等于给定值的元素！
+     *
+     * @param array 数组
+     * @param value 待查找的元素
+     * @return 索引
+     */
+    private static int binarySearch_FindFirst(int[] array, int value) {
+        int low = 0;
+        int high = array.length - 1;
+
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+
+            if(array[mid] == value) {
+                if(mid == 0 || array[mid - 1] != value) {
+                    //如果mid是第一个元素 或者 mid是连续n个相等元素的第一个，则直接返回！
+                    return mid;
+                } else {
+                    //否则，此时mid为连续n个相等元素的第x个（x>=2）,所以此时要更新high的值！
+                    high = mid - 1;
+                }
+            } else if(array[mid] < value) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    /**
+     * 3 - 2 二分查找变体2 - 查找最后一个值等于给定值的元素！
+     *
+     * @param array 数组
+     * @param value 待查找的元素
+     * @return 索引
+     */
+    private static int binarySearch_FindLast(int[] array, int value) {
+        int low = 0;
+        int high = array.length - 1;
+
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+
+            if(array[mid] == value) {
+                if((mid == array.length - 1) || array[mid + 1] != value) {
+                    //如果mid是最后一个元素 或者 mid是连续n个相等元素的最后一个，则直接返回！
+                    return mid;
+                } else {
+                    //否则，此时mid为连续n个相等元素的第x个（非最后一个）,所以此时要更新low的值！
+                    low = mid + 1;
+                }
+            } else if(array[mid] < value) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+
+
 
 }
