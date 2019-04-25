@@ -18,6 +18,7 @@ public class ReadMe {
      *
      *  7）二分查找（第15、16讲）-- BinarySearchDemo
      *
+     *  8）跳表（第17讲）-- SkipListDemo
      *
      */
 }
