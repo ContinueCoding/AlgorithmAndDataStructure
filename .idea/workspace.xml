@@ -18,8 +18,8 @@
       <file leaf-file-name="BinarySearchDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/BinarySearchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="266" column="28" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -533,7 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556101479138</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="数据结构与算法之美 - 二分查找：变体1&amp;2 - 查找第一个或最后一个与查找值相同的元素。">
+      <created>1556119196153</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1556119196153</updated>
+    </task>
+    <task id="LOCAL-00033" summary="数据结构与算法之美 - 二分查找：变体2&amp;3 - 查找第一个大于等于或小于等于指定值的元素。">
+      <created>1556155968817</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556155968817</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -557,12 +571,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25641027" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25641027" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13662376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13662376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -581,8 +595,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tree - Invert Tree。" />
-    <MESSAGE value="Sort - quick sort demo; from small to big。" />
     <MESSAGE value="数据结构与算法之美 - 数组：插入 &amp; 删除 &amp; 随机访问 &amp; 插入删除优化思路。" />
     <MESSAGE value="数据结构与算法之美 - 链表：翻转单链表（非递归、递归实现）。" />
     <MESSAGE value="数据结构与算法之美 - 链表：判断单链表是否有环。" />
@@ -606,7 +618,9 @@
     <MESSAGE value="数据结构与算法之美 - 排序：shell排序。" />
     <MESSAGE value="数据结构与算法之美 - 二分查找：递归、非递归实现。" />
     <MESSAGE value="数据结构与算法之美 - 二分查找：二分思想求平方根。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 二分查找：二分思想求平方根。" />
+    <MESSAGE value="数据结构与算法之美 - 二分查找：变体1&amp;2 - 查找第一个或最后一个与查找值相同的元素。" />
+    <MESSAGE value="数据结构与算法之美 - 二分查找：变体2&amp;3 - 查找第一个大于等于或小于等于指定值的元素。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 二分查找：变体2&amp;3 - 查找第一个大于等于或小于等于指定值的元素。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -989,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/BinarySearchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        <state relative-caret-position="252">
+          <caret line="266" column="28" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
         </state>
       </provider>
     </entry>

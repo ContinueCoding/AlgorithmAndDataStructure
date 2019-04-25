@@ -8,7 +8,9 @@ package beauty_of_data_structure_and_algorithm;
  *      *mid的取值：mid = low + ((high - low) >> 1)!
  *      *low、high的更新：+1\-1
  *
- *  2 二分查找的变体
+ *  2 二分查找的变体 - 4种
+ *
+ *  3 循环有序数组的二分查找
  *
  */
 public class BinarySearchDemo {
@@ -34,6 +36,10 @@ public class BinarySearchDemo {
         System.out.println("二分查找变体2：最后一个8 = " + binarySearch_FindLast(array2, 8));
         System.out.println("二分查找变体3：第一个大于等于7 = " + binarySearch_FindFirstGE(array2, 7));
         System.out.println("二分查找变体4：第一个小于等于7  = " + binarySearch_FindFirstLE(array2, 7));
+
+        //二分查找循环有序数组
+        int[] array3 = {4, 5, 6, 7, 8, 1, 2, 3};
+        System.out.println("循环数组二分查找：6的索引 = " + binarySearch_CircularArray(array3, 6));
     }
 
     /**
@@ -237,6 +243,44 @@ public class BinarySearchDemo {
                 low = mid + 1;
             } else {
                 high = mid - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    /**
+     * 4 二分查找扩展 - 循环有序数组！
+     *
+     *  循环数组特性：以数组中间元素分隔，会把循环数组分为一个有序数组和一个循环有序数组！
+     *
+     * @param array 数组
+     * @param value 待查找值
+     * @return 索引
+     */
+    private static int binarySearch_CircularArray(int[] array, int value) {
+        int low = 0;
+        int high = array.length - 1;
+
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+
+            if(array[mid] == value) {
+                return mid;
+            } else if(array[low] < array[mid]) {
+                //左半部分有序 - 则判断value是否在左侧
+                if(array[low] <= value && array[mid] >= value) {
+                    high = mid - 1;
+                } else {
+                    low = mid + 1;
+                }
+            } else {
+                //右半部分有序 - 则判断value是否在右侧
+                if(array[mid] <= value && array[high] >= value) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
             }
         }
 
