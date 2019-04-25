@@ -32,6 +32,8 @@ public class BinarySearchDemo {
 
         System.out.println("二分查找变体1：第一个8 = " + binarySearch_FindFirst(array2, 8));
         System.out.println("二分查找变体2：最后一个8 = " + binarySearch_FindLast(array2, 8));
+        System.out.println("二分查找变体3：第一个大于等于7 = " + binarySearch_FindFirstGE(array2, 7));
+        System.out.println("二分查找变体4：第一个小于等于7  = " + binarySearch_FindFirstLE(array2, 7));
     }
 
     /**
@@ -120,7 +122,7 @@ public class BinarySearchDemo {
     //TODO 二分查找变体：数组存在相等的值！
 
     /**
-     * 3 - 1 二分查找变体1 - 查找第一个值等于给定值的元素！
+     * 3-1 二分查找变体1 - 查找第一个值等于给定值的元素！
      *
      * @param array 数组
      * @param value 待查找的元素
@@ -152,7 +154,7 @@ public class BinarySearchDemo {
     }
 
     /**
-     * 3 - 2 二分查找变体2 - 查找最后一个值等于给定值的元素！
+     * 3-2 二分查找变体2 - 查找最后一个值等于给定值的元素！
      *
      * @param array 数组
      * @param value 待查找的元素
@@ -183,6 +185,62 @@ public class BinarySearchDemo {
         return -1;
     }
 
+    /**
+     * 3-3 二分查找变体3 - 查找第一个大于等于给定值的元素
+     * @param array 数组
+     * @param value 待查找值
+     * @return 索引
+     */
+    private static int binarySearch_FindFirstGE(int[] array, int value) {
+        int low = 0;
+        int high = array.length - 1;
 
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+
+            if(array[mid] >= value) {
+                // 如果mid大于等于value，则可以判断在mid左侧（含mid）
+                // 如果mid = 0 或 mid左边第一个小于value，则可确定mid就是要找的元素；否则，更新high！
+                if(mid == 0 || array[mid - 1] < value) {
+                    return mid;
+                }
+
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return -1;
+    }
+
+    /**
+     * 3-4 二分查找变体4 - 查找第一个小于等于给定值的元素
+     * @param array 数组
+     * @param value 待查找值
+     * @return 索引
+     */
+    private static int binarySearch_FindFirstLE(int[] array, int value) {
+        int low = 0;
+        int high = array.length - 1;
+
+        while (low <= high) {
+            int mid = low + ((high - low) >> 1);
+
+            if(array[mid] <= value) {
+                // 如果mid小于等于value，则可以判断在mid右侧（含mid）
+                // 如果mid = length - 1 或 mid右边第一个大于value，则可确定mid就是要找的元素；否则，更新low！
+                if(mid == array.length - 1 || array[mid + 1] > value) {
+                    return mid;
+                }
+
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1;
+    }
 
 }
