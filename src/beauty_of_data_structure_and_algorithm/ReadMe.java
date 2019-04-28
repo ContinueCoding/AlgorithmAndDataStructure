@@ -20,5 +20,7 @@ public class ReadMe {
      *
      *  8）跳表（第17讲）-- SkipListDemo
      *
+     *  9）散列表 & 哈希算法（第18 ~ 22讲）-- HashTableDemo
+     *
      */
 }

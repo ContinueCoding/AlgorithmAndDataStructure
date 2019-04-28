@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2160ceff-9e21-4ebb-b72d-fc27eb894ce4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SkipListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/HashTableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" afterDir="false" />
     </list>
@@ -19,50 +19,26 @@
       <file leaf-file-name="ReadMe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkipListDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SkipListDemo.java">
+      <file leaf-file-name="HashTableDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/HashTableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+            <state relative-caret-position="482">
+              <caret line="31" column="11" selection-start-line="3" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/BinarySearchDemo.java">
+      <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="303" column="6" lean-forward="true" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
-              <folding>
-                <element signature="e#4070#4071#0" expanded="true" />
-                <element signature="e#4119#4120#0" expanded="true" />
-                <element signature="e#5833#5834#0" expanded="true" />
-                <element signature="e#5849#5850#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/search/SearchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="247" column="21" lean-forward="true" selection-start-line="247" selection-start-column="21" selection-end-line="247" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -113,14 +89,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/QueueDemo.java" />
-        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/RecursionDemo.java" />
         <option value="$PROJECT_DIR$/src/data_structure_and_algorithm/sort/SortDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SortDemo.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/BinarySearchDemo.java" />
-        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
         <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SkipListDemo.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java" />
+        <option value="$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/HashTableDemo.java" />
       </list>
     </option>
   </component>
@@ -194,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;Stack&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Stack.java&#10;ClassLo&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Proxy&#9;PSI&#9;JAVA://java.lang.reflect.Proxy&#10;ArrayUtil&#9;PSI&#9;JAVA://com.sun.tools.javac.util.ArrayUtils&#10;Main&#9;FILE&#9;file:///Users/huoxy/IdeaProjects/AlgorithmAndDataStructure/src/Main.java&#10;LinkedList&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/LinkedList.java&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -574,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556157856551</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="数据结构与算法之美 - 跳表：跳表的实现。">
+      <created>1556175388415</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1556175388415</updated>
+    </task>
+    <task id="LOCAL-00036" summary="数据结构与算法之美 - 跳表：跳表性能总结。">
+      <created>1556256992313</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1556256992313</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -596,14 +587,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.25641027" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25641027" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.25641027" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39615384" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13662376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -622,8 +613,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据结构与算法之美 - 链表：翻转单链表（非递归、递归实现）。" />
-    <MESSAGE value="数据结构与算法之美 - 链表：判断单链表是否有环。" />
     <MESSAGE value="数据结构与算法之美 - 链表：获取单链表（无环）的中间结点。" />
     <MESSAGE value="数据结构与算法之美 - 链表：合并2个有序单链表（递归 &amp; 非递归）。" />
     <MESSAGE value="数据结构与算法之美 - 链表：删除链表倒数第N个结点。" />
@@ -647,7 +636,9 @@
     <MESSAGE value="数据结构与算法之美 - 二分查找：变体1&amp;2 - 查找第一个或最后一个与查找值相同的元素。" />
     <MESSAGE value="数据结构与算法之美 - 二分查找：变体2&amp;3 - 查找第一个大于等于或小于等于指定值的元素。" />
     <MESSAGE value="数据结构与算法之美 - 二分查找：循环有序数组的二分查找。" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 二分查找：循环有序数组的二分查找。" />
+    <MESSAGE value="数据结构与算法之美 - 跳表：跳表的实现。" />
+    <MESSAGE value="数据结构与算法之美 - 跳表：跳表性能总结。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法之美 - 跳表：跳表性能总结。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,13 +646,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/data_structure_and_algorithm/other/CommonAlgorithmDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -915,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="243" column="62" selection-start-line="243" selection-start-column="62" selection-end-line="243" selection-end-column="62" />
-          <folding>
-            <element signature="method#getMiddleNode#0;class#LinkedListDemo#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/StackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -941,31 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
           <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
-            <element signature="e#3077#3078#0" expanded="true" />
-            <element signature="e#3106#3107#0" expanded="true" />
-            <element signature="e#3154#3155#0" expanded="true" />
-            <element signature="e#3190#3191#0" expanded="true" />
-            <element signature="e#3780#3781#0" expanded="true" />
-            <element signature="e#3818#3819#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-            <element signature="e#3899#3900#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,22 +993,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/BinarySearchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="2325">
           <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/SkipListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="119" column="37" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+        <state relative-caret-position="-58">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ArrayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="223" column="22" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+          <folding>
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#3780#3781#0" expanded="true" />
+            <element signature="e#3820#3821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/LinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="247" column="21" lean-forward="true" selection-start-line="247" selection-start-column="21" selection-end-line="247" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/ReadMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beauty_of_data_structure_and_algorithm/HashTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="31" column="11" selection-start-line="3" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
